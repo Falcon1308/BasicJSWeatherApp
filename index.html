@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Weather API New
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+        <div class="location">
+            <input class="cityName" onkeypress="return pressEnter(event)"></input>
+            <button class="submit" onclick="showWeather()">Submit</button>
+
+            <div class="timeZone">
+                <h1 class="cityLoc"></h1>
+            </div>
+        </div>
+        <div class="temp">
+            <h2 class="tempID"></h2>
+            <div class="tempDesc">
+                <h2 class="tempDes"></h2>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
